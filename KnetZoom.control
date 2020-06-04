@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<ControlDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>1.0</Version>
+  <IncludeInControlInfo>false</IncludeInControlInfo>
+  <SupportFiles>
+    <Directory>js</Directory>
+    <Directory>icon</Directory>    
+  </SupportFiles>
+  <RuntimeRender>KnetZoomRender.js</RuntimeRender>
+  <HeightPropertyName>Height</HeightPropertyName>
+  <WidthPropertyName>Width</WidthPropertyName>
+  <ResizeSupported>true</ResizeSupported>
+  <ObjClass>KnetZoom</ObjClass>
+  <Description>KnetZoom</Description>
+  <Id>00000000-0000-0000-0000-000000000000</Id>
+  <Name>KnetZoom</Name>
+  <ShowMethod>show</ShowMethod>
+  <ReferencedFiles>
+  <SharedFile>jquery/jquery-1.4.2.min.js</SharedFile>
+    <File>js\ddpowerzoomer.js</File>
+  </ReferencedFiles>
+  <Constructor>
+    <Parameters />
+    <Name>KnetZoom</Name>
+  </Constructor>
+  <PropertiesDefinition>KnetZoomProperties.xml</PropertiesDefinition>
+  <DesignRender>KnetZoomRender.xsl</DesignRender>
+  <ToolboxIcon>icon\Knet.ico</ToolboxIcon>
+  <ControlType />
+  <Categories>
+    <Category>Knet App</Category>
+  </Categories>
+  <Events />
+  <Actions>  
+  <Action>
+      <Order>0</Order>
+      <ActionProperties />
+      <Data>
+// Grid load Example
+// Event Load
+//	for each 
+//		KnetZoom1.largeimage = pathtourl(ATT/&amp;VAR)
+//		load
+//	endfor
+//EndEvent
+
+
+// Image Url
+// Event Start
+//	KnetZoom1.largeimage = 'http://i.4pcbr.com/i/8b/1s7V5G.png'
+// EndEvent
+      </Data>
+      <ActionType>CodeSnippet</ActionType>    
+	</Action>  
+  </Actions>  
+  <IsPublic>true</IsPublic>
+</ControlDefinition>
